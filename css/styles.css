@@ -1,0 +1,165 @@
+#land{
+    background-image: linear-gradient(rgba(15, 46, 75, 0.8),rgba(15, 46, 75, 0.8)), url('../images/home_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+}
+.greet{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color:rgb(244, 194, 95);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.logo{
+    width: 2rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.image{
+    width: 30rem;
+}
+.event{
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.right{
+    flex-direction: row-reverse;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+.left_img{
+    margin-left: 2rem;
+   
+}
+.right_img{
+    margin-right: 2rem;
+    margin-left: 5rem;
+}
+#land{
+    margin-bottom: 3rem;
+}
+.head{
+    margin-left: 40%;
+    font-size: 4rem;
+    color: rgb(227, 86, 81);
+    margin-top: 2rem;
+    text-shadow: 1px 1px gray;
+}
+h3{
+    color:rgb(15, 46, 75);
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media(max-width: 1024px) {
+    .event{
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+    .image{
+        width: 28rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        
+    }
+    .right_img{
+        margin-right: 0;
+        margin-left: 2rem;
+       
+    }
+    .leftt_img{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .ab_c{
+        margin-bottom: 2rem;
+    }
+    .head{
+        margin-left: 25%;
+    }
+    
+}
+.about{
+    display: flex; 
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding: 7rem;
+    padding-top:2rem ;
+}
+.ab_t{
+    margin-bottom: 1rem;
+}
+.ab_c{
+    flex-basis: 24rem;
+    background-color:#CAF0F8 ;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+}
+#testimonials{
+    background-color:rgb(227, 239, 250);
+    padding: 2rem;
+}
+.carousel{
+    background-color: rgb(227, 239, 250);
+    padding-bottom: 2rem;
+}
+.car_im{
+    margin: 3rem;
+    width: 13rem;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item{
+    text-align: center;
+}
+.testi_t{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer{
+    background-color: rgb(15, 46, 75);
+    text-align: center;
+    color: #CAF0F8;
+    padding: 3rem;  
+    padding-bottom: 2rem;
+}
+i{
+    margin: 1rem; 
+}
+a:hover{
+    opacity: 0.8;
+}
+@media(max-width: 1000px){
+    .testi_t{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
